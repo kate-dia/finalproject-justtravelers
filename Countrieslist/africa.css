@@ -1,0 +1,162 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #c9aea3;
+}
+.montserrat-custom {
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #a5522e;
+  color: #000000;
+  padding: 8px 15px;
+  text-align: left;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+.title {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+  color: #000000;
+}
+.search-container {
+  position: relative;
+  margin: 20px;
+  width: 50%;
+  height: 50px;
+  background-color: #c9aea3;
+}
+#search-bar {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ce1126;
+  border-radius: 4px;
+  width: calc(100% - 100px);
+  box-sizing: border-box;
+  background-color: #c9aea3;
+}
+#search-button {
+  position: absolute;
+  height:43.5px;
+  color: #ce1126
+  font-size: 16px;
+  border:2px solid #ce1126;
+  border-radius: 5px;
+  background-color: #ce1126;
+  cursor: pointer;
+  padding: 0 15px;
+}
+.countries-list {
+  margin: 20px;
+}
+.country {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px solid #ce1126;
+  border-radius: 5px;
+  background-color: #c9aea3;
+  width: 600px;
+}
+.country-info {
+  display: flex;
+  align-items: center;
+}
+.country-image {
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.country-name {
+  margin: 0;
+  font-size: 24px;
+  color: #ffffff;
+}
+.country-details {
+  margin-top: 10px;
+  display: flex;
+  gap: 150px;
+}
+.detail {
+  font-size: 20px;
+  color: #8f8e8e;
+}
+.detail strong {
+  color: #8f8e8e;
+}
+country-link {
+  position: absolute;
+  bottom: 10px; /* Distance from the bottom of the country container */
+  right: 10px; /* Distance from the right of the country container */
+}
+.link-image {
+  width: 30px; /* Adjust size of the link image */
+  height: auto;
+}
+.population-icon {
+width: 50px;
+height: 40px;
+vertical-align: middle;
+margin-left: 5px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.countries-list {
+  width: 60%;
+}
+.map-container {
+  width: 35%;
+  margin-left: 20px;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.map-image {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: #ff3131;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+
+.navBarLink:visited {
+  color: white; /* Color for visited links */
+}
+:root {
+ 
+
+  /*Colors */
+  --title-color: hsl(0, 0%, 95%);
+
+
+  /*Font and typography */
+  --second-font: "Montserrat", sans-serif;
+
+
+  /* Font weight */
+  --font-semi-bold: 600;
+}
+
+.navBarLink{
+  color: var(--title-color);
+  font-family: var(--second-font);
+  font-weight: var(--font-semi-bold);
+}

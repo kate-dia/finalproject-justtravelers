@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  }
+
+
+body {
+  background-color: teal;
+  }
+
+
+.us{
+  font-size: 23px;
+  color: whitesmoke;
+  
+}
+
+
+img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin-top: 40px;
+}
+
+p{
+  font-family: montseratt, sans-serif;
+  margin: 50px;
+}
+
+.navBarLink:visited {
+  color: white; /* Color for visited links */
+}
+:root {
+
+
+  /*Colors */
+  --title-color: hsl(0, 0%, 95%);
+
+
+  /*Font and typography */
+  --second-font: "Montserrat", sans-serif;
+
+
+  /* Font weight */
+  --font-semi-bold: 600;
+}
+
+.navBarLink{
+  color: var(--title-color);
+  font-family: var(--second-font);
+  font-weight: var(--font-semi-bold);
+}

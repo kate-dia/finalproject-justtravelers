@@ -1,0 +1,61 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Continents</title>
+    <link href="page.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+  </head> 
+
+  <body>
+    
+  <nav id = "tabBar"> 
+    <a class = "navBarLink" href = "../index.html">Home</a>
+    <a class = "navBarLink" href = "../Aboutus/about.html">About</a>
+  <a class = "navBarLink" href = "#continents">Continents</a>
+  </nav>
+  
+  <h1> Choose a continent! </h1>
+
+  <div class="home__cards">
+    <article class="home__card">
+      <a href="../Countrieslist/africa.html">
+        <img src="data:image/png;base64,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" alt="Africa map" class="home__card-img">
+      </a>
+      <h3 class="home__card-title">Africa</h3>
+      <div class="home__card-shadow"></div>
+    </article>
+  
+  
+    <article class="home__card">
+      <a href="../Countrieslist/oceania.html">
+        <img src="https://www.flagpictures.com/media/oceania-map.jpg" alt="Oceania map" class="home__card-img">
+      </a>
+      <h3 class="home__card-title">Oceania</h3>
+      <div class="home__card-shadow"></div>
+    </article>
+
+    <article class="home__card">
+      <a href="../Countrieslist/europe.html">
+        <img src="https://www.flagpictures.com/media/europe-map.jpg" alt="Europe map" class="home__card-img">
+      </a>
+      <h3 class="home__card-title">Europe</h3>
+      <div class="home__card-shadow"></div>
+    </article>
+
+    <article class="home__card">
+      <a href="../Countrieslist/northamerica.html">
+        <img src="https://www.flagpictures.com/media/north-america-map.png" alt="North America map" class="home__card-img">
+      </a>
+      <h3 class="home__card-title">North America</h3>
+      <div class="home__card-shadow"></div>
+    </article>
+  </div>
+
+  </body>
+  </html>
